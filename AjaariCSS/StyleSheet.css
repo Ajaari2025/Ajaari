@@ -1,0 +1,226 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+Arabic:wght@300;500&display=swap');
+
+
+.box {
+    /*background: #f5f5f5;*/
+}
+
+    .box .group {
+        /*background: white;*/
+    }
+
+    .box .group-wrapper {
+        width: 104px;
+        height: 89px;
+    }
+
+.select {
+    position: relative;
+    background-color: #ffffff36; /* Red background */
+    border-radius: 14px 14px 0px 0px;
+    z-index: 1; /* Reset to a lower value */
+}
+
+    .select:after {
+        content: ' ';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #b70922; /* Semi-transparent black overlay */
+        border-radius: 14px;
+        margin: 8px;
+        z-index: -1; /* Place it behind the content */
+        width: 87px;
+        height: 75px;
+    }
+
+
+
+.findbutton {
+    background-color: #b20000;
+    border-radius: 14px;
+    box-shadow: 0px 47.73px 68px #0000001a;
+    color: white !important;
+    padding: 15px 80px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+    .findbutton span {
+        margin-top: 20px font-family: "Montserrat-Bold", Helvetica;
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: normal;
+        margin: 15px;
+        text-transform: uppercase;
+    }
+
+
+.effectbutton {
+    background-color: #f5f5f5 !important;
+    border-radius: 16px !important;
+    color: #9b9b9b !important;
+    height: 50px !important;
+    font-weight: 600 !important;
+    color: #9b9b9b;
+    font-size: 12px !important;
+    letter-spacing: -0.24px !important;
+    line-height: normal !important;
+}
+
+.effectbuttonborder {
+    border: 0px;
+    height: 50px !important;
+}
+
+
+.box .rent-a-car {
+    font-family: "Montserrat", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.box .text-wrapper {
+    color: #080f37;
+}
+
+.box .span {
+    color: #b20000;
+}
+
+
+.main-slider .caption-content label {
+    text-align: left !important;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #080f37;
+    font-size: 12px;
+    letter-spacing: -0.24px;
+    line-height: normal;
+    margin-left: 12px;
+}
+
+.form-group {
+    text-align: left !important;
+}
+
+
+
+.light-mini-button {
+    position: relative;
+    width: 47px;
+    height: 47px;
+    background-color: #b20000;
+    border-radius: 29.37px;
+    overflow: hidden;
+    margin: 15px;
+}
+
+    .light-mini-button .light-social-icons {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 14px;
+        left: 14px;
+    }
+
+
+
+.tabtop {
+    margin-top: 90px;
+}
+
+
+.folderbtn {
+    background: #ffffffcc;
+}
+
+.folder {
+    border-radius: 0px 14px 14px 14px;
+    background: #ffffffd9;
+}
+
+
+.box .img {
+    margin-top: 30px;
+    transition: background-color 0.5s ease;
+}
+
+@media (max-width: 991px) {
+
+    .box .img {
+        margin-top: 25px;
+        transition: background-color 0.5s ease;
+        width:60px;
+        height:30px;
+    }
+
+
+    .box .group-wrapper {
+        width: 85px;
+        height: 80px;
+    }
+
+
+    .btn-group > .btn:first-child {
+        color: black !important;
+    }
+
+    .select:after {
+        content: ' ';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #b70922; /* Semi-transparent black overlay */
+        border-radius: 14px;
+        margin: 8px;
+        z-index: -1; /* Place it behind the content */
+        width: 70px;
+        height: 70px;
+    }
+
+    .folder {
+        border-radius: 0px 0px 14px 14px;
+        background: #ffffffd9;
+        margin:3px;
+    }
+
+    .TitleBar {
+        margin-left: 18px;
+    }
+    .box .group-wrapper {
+        width: 80px;
+        height: 80px;
+    }
+    .folder p{
+       
+        margin: 3px;
+    }
+    .inputcss {
+        margin-top:5px !important;
+    }
+
+    .inner {
+        justify-content: center !important;
+    }
+
+    .topt {
+        padding: 25px;
+    }
+}
+
+.topt {
+    padding-top: 25px;
+    padding-left: 35px;
+}
+
